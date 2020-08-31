@@ -1,2 +1,1 @@
-# segment-challenge
-This app gives athletes the opportunity to challenge their friends and followers for a particular segment or a series of segment while being able to follow social distancing guidelines where cycling is permitted. A challenge will get its own leaderboard, is limited to a certain time period set by the athlete, and by invitation. The Strava leaderboards are not suitable for this type of social distancing challenge as they do not allow for a group of people to view the same leaderboard over a specific time period.
+## Segment challenge
