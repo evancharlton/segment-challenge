@@ -33,7 +33,6 @@ hs_err_pid*
 
 # production
 /build
-/public
 
 # misc
 .DS_Store
