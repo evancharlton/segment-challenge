@@ -17,8 +17,8 @@ const ChallengeInputForm = () => {
     <div>
       <h3>Open a new challenge:</h3>
       <form id="challengeInputForm" onSubmit={formik.handleSubmit}>
-        <div class="form-group">
-          <label for="challengeSegment">Link to Strava segment </label>
+        <div className="form-group">
+          <label htmlFor="challengeSegment">Link to Strava segment </label>
           <input
             type="text"
             id="challengeSegment"
@@ -27,8 +27,8 @@ const ChallengeInputForm = () => {
             placeholder="Link to Strava segment"
           />
         </div>
-        <div class="form-group">
-          <label for="challengeStartDate">Challenge start date </label>
+        <div className="form-group">
+          <label htmlFor="challengeStartDate">Challenge start date </label>
           <input
             type="date"
             id="challengeStartDate"
@@ -36,8 +36,8 @@ const ChallengeInputForm = () => {
             value={formik.values.challengeStartDate}
           />
         </div>
-        <div class="form-group">
-          <label for="challengeEndDate">Challenge end date </label>
+        <div className="form-group">
+          <label htmlFor="challengeEndDate">Challenge end date </label>
           <input
             type="date"
             id="challengeEndDate"
@@ -45,8 +45,8 @@ const ChallengeInputForm = () => {
             value={formik.values.challengeEndDate}
           />
         </div>
-        <div class="form-group">
-          <label for="challengePassphrase">
+        <div className="form-group">
+          <label htmlFor="challengePassphrase">
             Passphrase to enter challenge (auto-generated if left empty){' '}
           </label>
           <input
