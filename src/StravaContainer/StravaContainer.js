@@ -57,7 +57,6 @@ const StravaContainer = ({ children }) => {
     );
   }
 
-  console.log('token', token);
 
   return (
     <StravaTokenContext.Provider value={{ token }}>
