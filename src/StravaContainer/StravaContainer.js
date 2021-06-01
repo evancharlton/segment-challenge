@@ -9,9 +9,8 @@ const StravaTokenContext = createContext({
 });
 
 export const useStrava = () => {
-  const ctx = useContext(StravaTokenContext);
-  console.log(ctx);
-  return ctx.token;
+  const { token } = useContext(StravaTokenContext);
+  return token;
 };
 
 const StravaContainer = ({ children }) => {
