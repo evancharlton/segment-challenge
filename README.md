@@ -6,9 +6,9 @@ This app gives athletes the opportunity to challenge their friends and followers
 
 To get the app set up with Strava, do the following:
 
-1.  Navigate to [Strava's API](https://www.strava.com/settings/api)
-2.  Create a new application
-3.  Copy the "Client ID" and "Client Secret" fields
+1. Navigate to [Strava's API](https://www.strava.com/settings/api)
+2. Create a new application
+3. Copy the "Client ID" and "Client Secret" fields
 
 Now you start the app locally with the following command:
 
